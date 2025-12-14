@@ -68,7 +68,7 @@ All endpoints use the Base URL followed by the route prefix (e.g., `/api/courses
 
 The API adheres to the **Model-View-Controller (MVC)** pattern 
 
-[Image of Model-View-Controller diagram]
+![Project Screenshot](uploads/screenshot.png)
 , ensuring that the application logic is clearly separated, making the codebase easier to scale, maintain, and test.
 
 | Component | Directory | Responsibility |
@@ -148,6 +148,7 @@ This project is developed and maintained by:
 
 * **Author:** Seif El-Islam Elboghdady
 * **GitHub Profile:** [https://github.com/seifelboghdady](https://github.com/seifelboghdady)
+
 
 
 
