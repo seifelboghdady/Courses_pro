@@ -96,14 +96,16 @@ The logical organization follows industry-standard Node.js practices:
 
 ```text
 src/
-├── config/             # Configuration files (e.g., database connection, environment setup)
-├── controllers/        # Business logic for handling API requests
-├── middlewares/        # Custom middleware for auth, error handling, etc.
-├── models/             # Schema definitions and database interaction logic
-├── routes/             # Defines API endpoints (e.g., /api/v1/courses)
-├── utils/              # Helper functions (e.g., email sending, data validation)
-├── app.js              # Central entry point for defining middleware and mounting routes
-└── server.js           # Initializes the application, connects to DB, and starts the server
+├── config/            
+├── controllers/        
+├── middlewares/        
+├── models/             
+├── routes/            
+├── utils/            
+├── app.js            
+└── server.js          
+```
+
 ## 7. ⚙️ Local Development Setup
 
 Follow these steps to get a development copy of the API running on your local machine.
@@ -152,5 +154,6 @@ This project is developed and maintained by:
 
 * **Author:** Seif El-Islam Elboghdady
 * **GitHub Profile:** [https://github.com/seifelboghdady](https://github.com/seifelboghdady)
+
 
 
