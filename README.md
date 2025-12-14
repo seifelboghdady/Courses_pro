@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-18.x-green?logo=node.js" />
+  <img src="https://img.shields.io/badge/License-MIT-blue" />
+</p>
+---
 # 💻 RESTful API: Courses\_pro Backend
 
 This repository hosts the backend service for **Courses\_pro**, a robust, scalable RESTful API built with Node.js and the Express framework. It is designed to manage course data, user authentication, and resource access for a learning platform.
@@ -97,4 +102,52 @@ src/
 ├── utils/              # Helper functions (e.g., email sending, data validation)
 ├── app.js              # Central entry point for defining middleware and mounting routes
 └── server.js           # Initializes the application, connects to DB, and starts the server
+## 7. ⚙️ Local Development Setup
+
+Follow these steps to get a development copy of the API running on your local machine.
+
+### Prerequisites
+
+* Node.js (LTS version recommended)
+* npm or yarn
+* A running instance of MongoDB
+
+### Setup Procedure
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/seifelboghdady/Courses_pro.git](https://github.com/seifelboghdady/Courses_pro.git)
+    cd Courses_pro
+    ```
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    # or 
+    # yarn install
+    ```
+3.  **Configure Environment Variables:**
+    Create a `.env` file in the root directory and define necessary variables (e.g., Database URI, JWT Secret Key, Port).
+
+    ```
+    NODE_ENV=development
+    PORT=3000
+    DATABASE_URI=mongodb://127.0.0.1:27017/coursesdb
+    JWT_SECRET=your_super_secret_key
+    ```
+4.  **Start the Server:**
+    ```bash
+    npm start
+    # or 
+    # node src/server.js
+    ```
+    The server should now be running locally, typically accessible at `http://localhost:3000`. 
+
+---
+
+## 8. 👤 Author & Contribution
+
+This project is developed and maintained by:
+
+* **Author:** Seif El-Islam Elboghdady
+* **GitHub Profile:** [https://github.com/seifelboghdady](https://github.com/seifelboghdady)
 
