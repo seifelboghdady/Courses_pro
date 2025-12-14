@@ -5,7 +5,7 @@
 
 ---
 
-# 💻 RESTful API: Courses\_pro Backend
+# 💻 RESTful API: CoursesAPP Backend
 
 This repository hosts the backend service for **Courses\_pro**, a robust, scalable RESTful API built with Node.js and the Express framework. It is designed to manage course data, user authentication, and resource access for a learning platform.
 
@@ -148,6 +148,7 @@ This project is developed and maintained by:
 
 * **Author:** Seif El-Islam Elboghdady
 * **GitHub Profile:** [https://github.com/seifelboghdady](https://github.com/seifelboghdady)
+
 
 
 
