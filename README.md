@@ -126,23 +126,17 @@ Follow these steps to get a development copy of the API running on your local ma
 2.  **Install Dependencies:**
     ```bash
     npm install
-    # or 
-    # yarn install
     ```
 3.  **Configure Environment Variables:**
     Create a `.env` file in the root directory and define necessary variables (e.g., Database URI, JWT Secret Key, Port).
 
     ```
-    NODE_ENV=development
-    PORT=3000
     DATABASE_URI=mongodb://127.0.0.1:27017/coursesdb
     JWT_SECRET=your_super_secret_key
     ```
 4.  **Start the Server:**
     ```bash
-    npm start
-    # or 
-    # node src/server.js
+    # node index.js
     ```
     The server should now be running locally, typically accessible at `http://localhost:3000`. 
 
@@ -154,6 +148,7 @@ This project is developed and maintained by:
 
 * **Author:** Seif El-Islam Elboghdady
 * **GitHub Profile:** [https://github.com/seifelboghdady](https://github.com/seifelboghdady)
+
 
 
 
